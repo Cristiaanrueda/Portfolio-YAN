@@ -14,15 +14,7 @@ html {
 }
 
 body{
-	background: hsla(4, 48%, 94%, 1);
-
-	background: linear-gradient(90deg, hsla(4, 48%, 94%, 1) 0%, hsla(66, 70%, 80%, 1) 100%);
-	
-	background: -moz-linear-gradient(90deg, hsla(4, 48%, 94%, 1) 0%, hsla(66, 70%, 80%, 1) 100%);
-	
-	background: -webkit-linear-gradient(90deg, hsla(4, 48%, 94%, 1) 0%, hsla(66, 70%, 80%, 1) 100%);
-	
-	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#f7e9e8", endColorstr="#e9f0aa", GradientType=1 );
+background: #f4f3ee;
 font-family: 'Montserrat', sans-serif;
 font-size: 2rem;
 }
@@ -30,17 +22,17 @@ font-size: 2rem;
 header {
 	height: 5em;
 	border-bottom: 2px solid grey;
-	background: #e9f0aa;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
 }
 header a {
 	margin-right: 2rem;
+	text-decoration: none;
+	font-size: 2.5rem;
 }
 footer {
-		height: 5em;
-	background: #f7e9e8;
+	height: 5em;
 	text-align: center;
 	font-size: 1rem;
 	
