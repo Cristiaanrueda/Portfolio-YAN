@@ -1,0 +1,32 @@
+
+
+
+.wrapper {
+	display: flex;
+}
+
+.img__container {
+	flex-basis: 50%
+	margin-bottom: 5rem;
+}
+
+.text__container {
+	flex-basis: 50%
+}
+
+.text__container h2 {
+	text-align: center;
+	margin-top: 5rem;
+}
+
+
+.img__holder {
+	width: 70%;
+	height: 70%;
+	margin-top: 2rem
+}
+
+.img__holder img {
+	width: 100%;
+	height: 100%;
+}
