@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Arimo&family=BIZ+UDGothic&family=Bebas+Neue&family=Chakra+Petch:wght@300&family=Exo:ital,wght@1,300&family=Hubballi&family=Lato:wght@300&family=Mohave:ital,wght@1,600&family=Montserrat:wght@300&family=Open+Sans:wght@700&family=PT+Sans+Narrow&family=Roboto:wght@300&family=Saira+Semi+Condensed:wght@200&family=Smooch+Sans:wght@100&family=Teko:wght@300&display=swap');
+
+
 html {
-	margin: 0 auto
+	margin: 0 auto;
 	font-size: 10px;
+	
 }
 
 *,
@@ -10,16 +14,23 @@ html {
 }
 
 body{
-background: hsla(29, 92%, 70%, 1);
-background: linear-gradient(90deg, hsla(29, 92%, 70%, 1) 0%, hsla(0, 87%, 73%, 1) 100%);
-background: -moz-linear-gradient(90deg, hsla(29, 92%, 70%, 1) 0%, hsla(0, 87%, 73%, 1) 100%);
-background: -webkit-linear-gradient(90deg, hsla(29, 92%, 70%, 1) 0%, hsla(0, 87%, 73%, 1) 100%);
+	background: hsla(4, 48%, 94%, 1);
+
+	background: linear-gradient(90deg, hsla(4, 48%, 94%, 1) 0%, hsla(66, 70%, 80%, 1) 100%);
+	
+	background: -moz-linear-gradient(90deg, hsla(4, 48%, 94%, 1) 0%, hsla(66, 70%, 80%, 1) 100%);
+	
+	background: -webkit-linear-gradient(90deg, hsla(4, 48%, 94%, 1) 0%, hsla(66, 70%, 80%, 1) 100%);
+	
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#f7e9e8", endColorstr="#e9f0aa", GradientType=1 );
+font-family: 'Montserrat', sans-serif;
+font-size: 2rem;
 }
 
 header {
 	height: 5em;
-	border: 2px solid black;
-	background: #f9a470;
+	border-bottom: 2px solid grey;
+	background: #e9f0aa;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
@@ -29,6 +40,9 @@ header a {
 }
 footer {
 		height: 5em;
-	border: 2px solid black;
-		background: #f9a470;
+	background: #f7e9e8;
+	text-align: center;
+	font-size: 1rem;
+	
+		
 }
